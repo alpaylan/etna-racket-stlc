@@ -2,6 +2,11 @@ name = "stlc-racket"
 language = "Racket"
 description = "Simply Typed Lambda Calculus property-based testing workload (Racket)."
 
+strategies = [
+  "ProplangBespoke", 
+  "RackcheckBespoke",
+  "ParallelBespoke"]
+
 mutations = [
   "shift_var_none",
   "shift_var_all",
